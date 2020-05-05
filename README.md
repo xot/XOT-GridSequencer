@@ -1,6 +1,6 @@
 # XOT-GridSequencer
 
-A Max for Live grid sequencer inspired by Garage Bands Beat Sequencer.
+A Max for Live grid sequencer inspired by Garage Band's Beat Sequencer.
 
 (c) Jaap-Henk Hoepman (info@xot.nl)
 
