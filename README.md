@@ -44,6 +44,8 @@ The box to the left of each voice in the grid contains the MIDI note to be playe
 
 The box to the right of each voice in the grid contains the length (i.e. the number of slots) that can be programmed for the voice. This can be dragged up and down to select any value between 1 and 24.
 
+The length of the grid is automatically adjusted to reflect the number of sixteenth notes in the time signature chosen. Clearing the grid resets any changes to the length to this default.
+
 ## Staging
 
 Turning the Stage button (in the view selection panel) on allows you to edit a new drum pattern while the current pattern keeps playing. The new pattern will be played (and the old pattern will be lost) as soon as the Stage button is turned off again. To keep the old pattern, save it to a preset first.
