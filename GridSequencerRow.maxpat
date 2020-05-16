@@ -165,19 +165,19 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u465003476"
+					"varname" : "u670014610"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.821428571428442, 21.0, 114.0, 33.0 ],
-					"text" : "triplets (number of clockticks in bar)"
+					"patching_rect" : [ 586.821428571428442, 21.0, 114.0, 47.0 ],
+					"text" : "triplets (number of clockticks in beat, 4 or 6)"
 				}
 
 			}

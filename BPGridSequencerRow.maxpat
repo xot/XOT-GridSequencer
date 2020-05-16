@@ -2054,7 +2054,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u471006735"
+									"varname" : "u257014131"
 								}
 
 							}
@@ -3019,7 +3019,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u796006656"
+									"varname" : "u184014137"
 								}
 
 							}
@@ -3778,7 +3778,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u275006655"
+									"varname" : "u008014143"
 								}
 
 							}
@@ -4486,7 +4486,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u824006654"
+									"varname" : "u198014198"
 								}
 
 							}
@@ -5116,19 +5116,19 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1230.5, 946.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u627006739"
+					"varname" : "u711014125"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-40",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 521.5, 6.5, 116.0, 33.0 ],
-					"text" : "triplets (number \nof clockticks in bar)"
+					"patching_rect" : [ 521.5, 6.5, 116.0, 47.0 ],
+					"text" : "triplets (number \nof clockticks in beat, 4 or 6)"
 				}
 
 			}
@@ -5765,7 +5765,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u383006732"
+									"varname" : "u658014213"
 								}
 
 							}
