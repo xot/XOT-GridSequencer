@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 162.0, -952.0, 1098.0, 807.0 ],
+		"rect" : [ 524.0, -836.0, 1098.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -304,7 +304,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 1249.0, 762.0 ],
+						"rect" : [ 111.0, 99.0, 1249.0, 720.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -332,6 +332,18 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 231.0, 51.0, 74.0 ],
+									"text" : "fire 2 1/32 notes\n(60 ticks)"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.934730999999999,
@@ -691,7 +703,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 364.0, 471.0, 81.0, 22.0 ],
-									"text" : "delay 30 ticks"
+									"text" : "delay 15 ticks"
 								}
 
 							}
@@ -703,7 +715,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 256.0, 471.0, 81.0, 22.0 ],
-									"text" : "delay 45 ticks"
+									"text" : "delay 22 ticks"
 								}
 
 							}
@@ -715,7 +727,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 143.0, 471.0, 81.0, 22.0 ],
-									"text" : "delay 60 ticks"
+									"text" : "delay 30 ticks"
 								}
 
 							}
@@ -921,7 +933,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 392.5, 302.0, 81.0, 22.0 ],
-									"text" : "delay 60 ticks"
+									"text" : "delay 30 ticks"
 								}
 
 							}
@@ -933,7 +945,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 392.5, 253.0, 81.0, 22.0 ],
-									"text" : "delay 60 ticks"
+									"text" : "delay 30 ticks"
 								}
 
 							}
@@ -945,7 +957,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 392.5, 205.0, 81.0, 22.0 ],
-									"text" : "delay 60 ticks"
+									"text" : "delay 30 ticks"
 								}
 
 							}
@@ -957,7 +969,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 281.333333333333371, 253.0, 81.0, 22.0 ],
-									"text" : "delay 90 ticks"
+									"text" : "delay 45 ticks"
 								}
 
 							}
@@ -969,7 +981,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 281.333333333333371, 205.0, 81.0, 22.0 ],
-									"text" : "delay 90 ticks"
+									"text" : "delay 45 ticks"
 								}
 
 							}
@@ -980,8 +992,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 170.166666666666686, 205.0, 88.0, 22.0 ],
-									"text" : "delay 120 ticks"
+									"patching_rect" : [ 170.166666666666686, 205.0, 81.0, 22.0 ],
+									"text" : "delay 60 ticks"
 								}
 
 							}
@@ -2042,7 +2054,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u835012937"
+									"varname" : "u471006735"
 								}
 
 							}
@@ -3007,7 +3019,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u190012936"
+									"varname" : "u796006656"
 								}
 
 							}
@@ -3766,7 +3778,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u001012935"
+									"varname" : "u275006655"
 								}
 
 							}
@@ -4474,7 +4486,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u663011182"
+									"varname" : "u824006654"
 								}
 
 							}
@@ -5104,7 +5116,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1230.5, 946.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u562012938"
+					"varname" : "u627006739"
 				}
 
 			}
@@ -5753,7 +5765,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u113011171"
+									"varname" : "u383006732"
 								}
 
 							}
