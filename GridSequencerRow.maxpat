@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 122.0, 154.0, 1023.0, 543.0 ],
+		"rect" : [ 121.0, 154.0, 1023.0, 543.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -101,12 +101,12 @@
 					"presentation_rect" : [ 421.0, 1.5, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_mmax" : 24.0,
 							"parameter_shortname" : "note",
 							"parameter_type" : 3,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "note[1]"
+							"parameter_longname" : "note[1]",
+							"parameter_invisible" : 1,
+							"parameter_mmax" : 24.0
 						}
 
 					}
@@ -165,7 +165,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u383004578"
+					"varname" : "u465003476"
 				}
 
 			}
@@ -365,10 +365,10 @@
 					"presentation_rect" : [ 7.0, 1.0, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_invisible" : 1,
 							"parameter_shortname" : "note",
 							"parameter_type" : 3,
-							"parameter_longname" : "note"
+							"parameter_longname" : "note",
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -719,8 +719,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
