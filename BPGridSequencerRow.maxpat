@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 43.5, 150.0, 87.0 ],
-					"text" : "THis doesnt work very well to solve problem of \"gaps\" in length increments that fail to set Chance and Velocity correctly"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -275,7 +263,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 255.5, 132.0, 58.0, 22.0 ],
+					"patching_rect" : [ 176.5, 132.0, 58.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -284,18 +272,6 @@
 					}
 ,
 					"text" : "p smooth"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-70",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 176.5, 93.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -2066,7 +2042,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u160003718"
+									"varname" : "u171012248"
 								}
 
 							}
@@ -2857,7 +2833,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 413.0, 274.0, 907.0, 581.0 ],
+						"rect" : [ -46.0, -760.0, 907.0, 581.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3031,7 +3007,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u220003717"
+									"varname" : "u474012247"
 								}
 
 							}
@@ -3720,7 +3696,6 @@
 									"setminmax" : [ 1.0, 127.0 ],
 									"setstyle" : 1,
 									"settype" : 0,
-									"size" : 16,
 									"slidercolor" : [ 0.152941176470588, 0.294117647058824, 0.305882352941176, 1.0 ],
 									"spacing" : 4,
 									"style" : "default"
@@ -3786,11 +3761,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 50.0, 224.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"velocity" : [ 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127 ]
+										"velocity" : [ 127, 1, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u581003716"
+									"varname" : "u841012246"
 								}
 
 							}
@@ -3876,7 +3851,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 91.5, 131.0, 65.0, 22.0 ],
+									"patching_rect" : [ 92.5, 131.0, 65.0, 22.0 ],
 									"text" : "set $1 127"
 								}
 
@@ -4155,7 +4130,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-11", 0 ],
 									"order" : 0,
 									"source" : [ "obj-64", 0 ]
 								}
@@ -4498,7 +4473,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u640003715"
+									"varname" : "u002012245"
 								}
 
 							}
@@ -5128,7 +5103,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1230.5, 946.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u733003719"
+					"varname" : "u482012249"
 				}
 
 			}
@@ -5777,7 +5752,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u362003710"
+									"varname" : "u259012240"
 								}
 
 							}
@@ -6219,7 +6194,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -6575,13 +6550,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"source" : [ "obj-70", 0 ]
 				}
 
 			}
