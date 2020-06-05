@@ -44,8 +44,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 598.0, 133.5, 50.0, 22.0 ],
-					"text" : "14"
+					"patching_rect" : [ 598.0, 133.5, 29.5, 22.0 ],
+					"text" : "16"
 				}
 
 			}
@@ -118,6 +118,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -1988,7 +1989,7 @@
 									"bgcolor" : [ 0.388235294117647, 0.737254901960784, 0.772549019607843, 1.0 ],
 									"cellpict" : "Macintosh HD:/Users/jhh/MyMusic/XOT-Effects/XOT-GridSequencer Project/pict-duration.png",
 									"clickedimage" : 0,
-									"columns" : 14,
+									"columns" : 16,
 									"horizontalmargin" : 0,
 									"horizontalspacing" : 4,
 									"id" : "obj-11",
@@ -2075,11 +2076,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 45.0, 239.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"duration" : [ 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0 ]
+										"duration" : [ 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u227001696"
+									"varname" : "u868011569"
 								}
 
 							}
@@ -2302,9 +2303,9 @@
 									"bgcolor" : [ 0.388235294117647, 0.737254901960784, 0.772549019607843, 1.0 ],
 									"cellpict" : "Macintosh HD:/Users/jhh/MyMusic/XOT-Effects/XOT-GridSequencer Project/pict-duration.png",
 									"clickedimage" : 0,
-									"columns" : 14,
+									"columns" : 16,
 									"horizontalmargin" : 0,
-									"horizontalspacing" : 7,
+									"horizontalspacing" : 4,
 									"id" : "obj-92",
 									"inactiveimage" : 0,
 									"maxclass" : "matrixctrl",
@@ -2989,7 +2990,7 @@
 									"cellpict" : "Macintosh HD:/Users/jhh/MyMusic/XOT-Effects/XOT-GridSequencer Project/pict-repeat.png",
 									"clickedimage" : 0,
 									"color" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ],
-									"columns" : 14,
+									"columns" : 16,
 									"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 									"horizontalmargin" : 0,
 									"horizontalspacing" : 16,
@@ -3040,11 +3041,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 54.0, 248.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"repeat" : [ 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0 ]
+										"repeat" : [ 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 6, 0, 0, 7, 0, 0, 8, 0, 0, 9, 0, 0, 10, 0, 0, 11, 0, 0, 12, 0, 0, 13, 0, 0, 14, 0, 0, 15, 0, 0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u011001534"
+									"varname" : "u162011568"
 								}
 
 							}
@@ -3160,10 +3161,10 @@
 									"cellpict" : "Macintosh HD:/Users/jhh/MyMusic/XOT-Effects/XOT-GridSequencer Project/pict-repeat.png",
 									"clickedimage" : 0,
 									"color" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ],
-									"columns" : 14,
+									"columns" : 16,
 									"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 									"horizontalmargin" : 0,
-									"horizontalspacing" : 14,
+									"horizontalspacing" : 16,
 									"id" : "obj-30",
 									"inactiveimage" : 0,
 									"maxclass" : "matrixctrl",
@@ -3733,7 +3734,7 @@
 									"setminmax" : [ 1.0, 127.0 ],
 									"setstyle" : 1,
 									"settype" : 0,
-									"size" : 14,
+									"size" : 16,
 									"slidercolor" : [ 0.152941176470588, 0.294117647058824, 0.305882352941176, 1.0 ],
 									"spacing" : 4,
 									"style" : "default"
@@ -3799,11 +3800,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 50.0, 224.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"velocity" : [ 127, 127, 1, 127, 1, 1, 127, 127, 1, 127, 127, 127, 127, 127 ]
+										"velocity" : [ 127, 127, 1, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u511010566"
+									"varname" : "u249011567"
 								}
 
 							}
@@ -3874,7 +3875,7 @@
 									"setminmax" : [ 1.0, 127.0 ],
 									"setstyle" : 1,
 									"settype" : 0,
-									"size" : 14,
+									"size" : 16,
 									"slidercolor" : [ 0.152941176470588, 0.294117647058824, 0.305882352941176, 1.0 ],
 									"spacing" : 4,
 									"style" : "default",
@@ -4417,7 +4418,7 @@
 									"setminmax" : [ 0.0, 100.0 ],
 									"setstyle" : 1,
 									"settype" : 0,
-									"size" : 14,
+									"size" : 16,
 									"slidercolor" : [ 0.152941176470588, 0.294117647058824, 0.305882352941176, 1.0 ],
 									"spacing" : 4,
 									"style" : "default"
@@ -4507,11 +4508,11 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 54.0, 238.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"chance" : [ 100, 100, 0, 100, 0, 0, 100, 100, 0, 100, 7, 100, 100, 100 ]
+										"chance" : [ 100, 100, 0, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u777001866"
+									"varname" : "u148011566"
 								}
 
 							}
@@ -4580,7 +4581,7 @@
 									"setminmax" : [ 0.0, 100.0 ],
 									"setstyle" : 1,
 									"settype" : 0,
-									"size" : 14,
+									"size" : 16,
 									"slidercolor" : [ 0.152941176470588, 0.294117647058824, 0.305882352941176, 1.0 ],
 									"spacing" : 4,
 									"style" : "default",
@@ -5141,7 +5142,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1230.5, 946.0, 56.0, 22.0 ],
 					"text" : "autopattr",
-					"varname" : "u128013198"
+					"varname" : "u498011570"
 				}
 
 			}
@@ -5651,7 +5652,6 @@
 									"bgstepcolor2" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 1.0 ],
 									"bordercolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 									"bordercolor2" : [ 0.457388877868652, 0.457388877868652, 0.457388877868652, 1.0 ],
-									"columns" : 14,
 									"direction" : 0,
 									"hbgcolor" : [ 0.529411764705882, 0.756862745098039, 0.23921568627451, 0.5 ],
 									"id" : "obj-11",
@@ -5668,10 +5668,10 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "grid1",
 											"parameter_type" : 3,
 											"parameter_longname" : "grid1[1]",
-											"parameter_invisible" : 1
+											"parameter_invisible" : 1,
+											"parameter_shortname" : "grid1"
 										}
 
 									}
@@ -5786,12 +5786,12 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 50.0, 259.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"live.grid" : [ 3, 14, 1, 0, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
-										"step" : [ 3, 14, 1, 0, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
+										"live.grid" : [ 3, 16, 1, 0, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ],
+										"step" : [ 3, 16, 1, 0, 1, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u324010336"
+									"varname" : "u433011561"
 								}
 
 							}
@@ -5836,7 +5836,6 @@
 									"bgstepcolor2" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 1.0 ],
 									"bordercolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 									"bordercolor2" : [ 0.457388877868652, 0.457388877868652, 0.457388877868652, 1.0 ],
-									"columns" : 14,
 									"direction" : 0,
 									"hbgcolor" : [ 0.529411764705882, 0.756862745098039, 0.23921568627451, 0.5 ],
 									"id" : "obj-12",
@@ -5855,10 +5854,10 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "grid1",
 											"parameter_type" : 3,
 											"parameter_longname" : "grid1",
-											"parameter_invisible" : 1
+											"parameter_invisible" : 1,
+											"parameter_shortname" : "grid1"
 										}
 
 									}
@@ -6462,7 +6461,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"midpoints" : [ 186.0, 206.0, 546.0, 206.0, 546.0, 115.0, 638.5, 115.0 ],
+					"midpoints" : [ 186.0, 206.0, 546.0, 206.0, 546.0, 115.0, 618.0, 115.0 ],
 					"order" : 1,
 					"source" : [ "obj-53", 0 ]
 				}

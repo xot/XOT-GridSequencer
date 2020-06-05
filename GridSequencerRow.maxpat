@@ -44,7 +44,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 887.0, 152.5, 50.0, 22.0 ]
+					"patching_rect" : [ 887.0, 152.5, 54.0, 22.0 ],
+					"text" : "16"
 				}
 
 			}
@@ -136,12 +137,12 @@
 					"presentation_rect" : [ 421.0, 1.5, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "note",
 							"parameter_type" : 3,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "note[1]",
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 24.0
+							"parameter_mmax" : 24.0,
+							"parameter_shortname" : "note"
 						}
 
 					}
@@ -188,7 +189,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u796010645"
+					"varname" : "u400002542"
 				}
 
 			}
@@ -388,10 +389,10 @@
 					"presentation_rect" : [ 7.0, 1.0, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "note",
 							"parameter_type" : 3,
 							"parameter_longname" : "note",
-							"parameter_invisible" : 1
+							"parameter_invisible" : 1,
+							"parameter_shortname" : "note"
 						}
 
 					}
@@ -686,8 +687,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "note", "note", 0 ],
 			"obj-1::obj-128::obj-11" : [ "grid1[1]", "grid1", 0 ],
+			"obj-29" : [ "note", "note", 0 ],
 			"obj-1::obj-128::obj-12" : [ "grid1", "grid1", 0 ],
 			"obj-27" : [ "note[1]", "note", 0 ],
 			"parameterbanks" : 			{
