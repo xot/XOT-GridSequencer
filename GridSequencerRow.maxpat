@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 121.0, 154.0, 1023.0, 543.0 ],
+		"rect" : [ 121.0, 154.0, 671.0, 543.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-34",
@@ -134,15 +135,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 532.14285714285711, 201.5, 44.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 421.0, 1.5, 44.0, 17.0 ],
+					"presentation_rect" : [ 421.0, 1.0, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 3,
-							"parameter_mmin" : 1.0,
-							"parameter_longname" : "note[1]",
 							"parameter_invisible" : 1,
+							"parameter_longname" : "note[1]",
 							"parameter_mmax" : 24.0,
-							"parameter_shortname" : "note"
+							"parameter_mmin" : 1.0,
+							"parameter_shortname" : "note",
+							"parameter_type" : 3
 						}
 
 					}
@@ -389,10 +390,10 @@
 					"presentation_rect" : [ 7.0, 1.0, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 3,
-							"parameter_longname" : "note",
 							"parameter_invisible" : 1,
-							"parameter_shortname" : "note"
+							"parameter_longname" : "note",
+							"parameter_shortname" : "note",
+							"parameter_type" : 3
 						}
 
 					}
@@ -688,13 +689,14 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-128::obj-11" : [ "grid1[1]", "grid1", 0 ],
-			"obj-29" : [ "note", "note", 0 ],
 			"obj-1::obj-128::obj-12" : [ "grid1", "grid1", 0 ],
 			"obj-27" : [ "note[1]", "note", 0 ],
+			"obj-29" : [ "note", "note", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
