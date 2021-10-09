@@ -14,7 +14,7 @@ This grid sequencer allows you to program a bar containing eight independent voi
 
 The sequencer can be driven using an internal clock (that syncs with Live's tempo) ensuring that even in non standard time signatures the sequencer advances one step every sixteenth (triplet) notes.
 
-The sequencer can also be driven using incoming MIDI notes. In that case each MIDI note on message advances the sequencer one step. This is useful to drive the sequencer with a groove.
+The sequencer can also be driven using incoming MIDI notes. In that case each MIDI note on message advances the sequencer one step (and incoming MIDI messages are no longer passed through to the output). This is useful to drive the sequencer with a groove.
 
 The user interface of the grid sequencer is divided into four panels. The leftmost clock panel is used to configure the clock signal used to drive the grid sequencer. The view selection is used to select which view is shown in the grid immediately right of it. The rightmost panel contains the presets. Each panel is explained in detail belows.
 
@@ -29,8 +29,7 @@ Velocity
 : Each slot is a vertical slider. If the corresponding step slot is selected, the slider in a slot determines the velocity of the outgoing MIDI note. Sliders can be dragged up (for the maximum velocity 127) and down (for minimum velocity 0). The default is 127.
 
 Duration
-: Each slot is contains a note symbol representing the selected length. Possible lengths are: 1/32, 1/16, 3/32, 1/8, 3/16, 1/4, 3/8, 1/2. Clicking a slot selects the next longer lasting note (or jumps back to a 1/32th note).
-If the corresponding step slot is selected, this slot determines for how long a note is played. When notes are repeated (see below), this only affects the duration of the last note played. The default is 1/32.
+: Each slot is contains a note symbol representing the selected length. Possible lengths are: 1/32, 1/16, 3/32, 1/8, 3/16, 1/4, 3/8, 1/2. Clicking a slot selects the next longer lasting note (or jumps back to a 1/32th note). If the corresponding step slot is selected, this slot determines for how long a note is played. When notes are repeated (see below), this only affects the duration of the last note played. The default is 1/32.
 
 Repeat
 : Each slot contains 1,2,3 or four bars, representing how often the note should be repeated (if the corresponding step slot is selected). Clicking a slot adds another repetition (or jumps back to 1). The default is 1.
