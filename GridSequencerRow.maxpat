@@ -135,7 +135,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 532.14285714285711, 201.5, 44.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 421.0, 1.0, 44.0, 17.0 ],
+					"presentation_rect" : [ 597.0, 1.0, 44.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -446,7 +446,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 409.0, 249.0, 450.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 1.0, 352.0, 17.0 ],
+					"presentation_rect" : [ 59.0, 1.0, 528.0, 17.0 ],
 					"varname" : "BPGridSequencerRow",
 					"viewvisibility" : 1
 				}
