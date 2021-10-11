@@ -16,7 +16,7 @@ The sequencer can be driven using an internal clock (that syncs with Live's temp
 
 The sequencer can also be driven using incoming MIDI notes. In that case each MIDI note on message advances the sequencer one step (and incoming MIDI messages are no longer passed through to the output). This is useful to drive the sequencer with a groove.
 
-The user interface of the grid sequencer is divided into four panels. The leftmost clock panel is used to configure the clock signal used to drive the grid sequencer. The view selection is used to select which view is shown in the grid immediately right of it. The rightmost panel contains the presets. Each panel is explained in detail belows.
+The user interface of the grid sequencer is divided into four panels. The leftmost clock panel is used to configure the clock signal used to drive the grid sequencer. The view selection is used to select which view is shown in the grid immediately right of it. The rightmost panel contains the presets. Each panel is explained in detail below.
 
 ## View selection and the grid
 
@@ -44,6 +44,10 @@ The box to the left of each voice in the grid contains the MIDI note to be playe
 The box to the right of each voice in the grid contains the length (i.e. the number of slots) that can be programmed for the voice. This can be dragged up and down to select any value between 1 and 24.
 
 The length of the grid is automatically adjusted to reflect the number of sixteenth notes in the time signature chosen. Clearing the grid resets any changes to the length to this default.
+
+## Muting rows
+
+Each row can be muted or unmuted with the toggle right of the length selector.
 
 ## Staging
 
