@@ -12,7 +12,7 @@ Released under the [MIT](https://opensource.org/licenses/MIT) license.
 
 This grid sequencer allows you to program a bar containing eight independent voices. Each bar is subdivided into at most 24 sixteenth notes (or sixteenth triplet notes when the 'triplets' switch is on). This can be set for each voice independently. Each voice corresponds to a fixed, user assignable, note. For each voice, notes can be turned on or off, assigned a certain velocity, duration, flagged to be repeated, or triggered with a certain probability.
 
-The sequencer can be driven using an internal clock (that syncs with Live's tempo) ensuring that even in non standard time signatures the sequencer advances one step every sixteenth (triplet) notes.
+The sequencer can be driven using an internal clock (that syncs with Live's tempo) ensuring that even in non standard time signatures the sequencer advances one step every sixteenth (triplet) notes. Changing the time signature resets the length of all rows to the number of sixteenth notes in a bar.
 
 The sequencer can also be driven using incoming MIDI notes. In that case each MIDI note on message advances the sequencer one step (and incoming MIDI messages are no longer passed through to the output). This is useful to drive the sequencer with a groove.
 
