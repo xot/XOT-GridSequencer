@@ -32,10 +32,12 @@ Duration
 : Each slot is contains a note symbol representing the selected length. Possible lengths are: 1/32, 1/16, 3/32, 1/8, 3/16, 1/4, 3/8, 1/2. Clicking a slot selects the next longer lasting note (or jumps back to a 1/32th note). If the corresponding step slot is selected, this slot determines for how long a note is played. When notes are repeated (see below), this only affects the duration of the last note played. The default is 1/32.
 
 Repeat
-: Each slot contains 1,2,3 or four bars, representing how often the note should be repeated (if the corresponding step slot is selected). Clicking a slot adds another repetition (or jumps back to 1). The default is 1.
+: Each slot contains 1,2,3 or 4 bars, representing how often the note should be repeated (if the corresponding step slot is selected). Clicking a slot adds another repetition (or jumps back to 1). The default is 1.
 
 Chance
-: Each slot is a vertical slider. If the corresponding step slot is selected, the slider in a slot determines the probability the note (including all its repetitions) is actually played. Sliders can be dragged up (for the maximum probability 100%) and down (for minimum probability 0%). The default is 100%.
+: Each slot is a vertical slider. If the corresponding step slot is selected, the slider in a slot determines the probability the note and/or its repetitions are actually played: if repeat equals 1, then chance determined the probability that a single note is played (or will be silent instead); if repeat > 1, then chance determines the probability that the repeated notes are played (instead of the single note, i.e. skipping the repetition). Sliders can be dragged up (for the maximum probability 100%) and down (for minimum probability 0%). The default is 100%.
+  
+
 
 ## Changing the grid length and notes played
 
