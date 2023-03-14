@@ -3993,6 +3993,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 398.0, 235.0, 73.0, 22.0 ],
+									"text" : "s tracevalue"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -4184,7 +4195,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 268.0, 225.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"velocity" : [ 127, 127, 1, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127 ]
+										"velocity" : [ 127, 127, 1, 50, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127 ]
 									}
 ,
 									"text" : "autopattr",
@@ -4246,6 +4257,7 @@
 									"candicane5" : [ 0.457388877868652, 0.457388877868652, 0.457388877868652, 1.0 ],
 									"candicane6" : [ 0.457388877868652, 0.457388877868652, 0.457388877868652, 1.0 ],
 									"candycane" : 4,
+									"contdata" : 1,
 									"id" : "obj-36",
 									"maxclass" : "multislider",
 									"numinlets" : 1,
@@ -4541,6 +4553,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 1 ],
+									"order" : 0,
+									"source" : [ "obj-36", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"order" : 1,
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -4766,6 +4787,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 381.0, 250.0, 73.0, 22.0 ],
+									"text" : "s tracevalue"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -4943,7 +4975,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 245.0, 237.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"chance" : [ 100, 100, 0, 100, 21, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ]
+										"chance" : [ 100, 100, 93, 100, 21, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ]
 									}
 ,
 									"text" : "autopattr",
@@ -5003,6 +5035,7 @@
 									"candicane3" : [ 0.270588235294118, 0.513725490196078, 0.537254901960784, 1.0 ],
 									"candicane4" : [ 0.270588235294118, 0.513725490196078, 0.537254901960784, 1.0 ],
 									"candycane" : 4,
+									"contdata" : 1,
 									"id" : "obj-4",
 									"maxclass" : "multislider",
 									"numinlets" : 1,
@@ -5305,6 +5338,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 1 ],
+									"order" : 0,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"order" : 1,
 									"source" : [ "obj-4", 0 ]
 								}
 
